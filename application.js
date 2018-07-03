@@ -15,7 +15,8 @@ for (thisItem in knicks){
   // set img src= "images/" + knicks[count]
   var newImage = document.createElement('img')
   newImage.src = "images/" + knicks[count];
-  newImage.width = "100";
+  newImage.classList.add("responsive");
+  newImage.classList.add("image-container");
   gallery.appendChild(newImage);
   count = count + 1;
 }
