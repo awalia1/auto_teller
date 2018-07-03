@@ -1,0 +1,33 @@
+.container{
+  width: 90%;
+}
+
+h1{
+  text-align: center;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns: 750px 750px;
+  grid-gap: 15px;
+}
+
+.customer{
+  background-color: red;
+  width: 750px;
+  height: 400px;
+}
+
+.bank{
+  background-color: blue;
+  width: 750px;
+  height: 400px;
+}
+
+.responsiveness{
+  width: 100%
+}
+
+.image-container {
+  width: 50%;
+}
